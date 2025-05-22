@@ -20,7 +20,9 @@
       "path": "./node_modules/cz-git"
     }
   },
-  "keywords": [],
+  "keywords": [
+    "开发模版"
+  ],
   "author": "Ni0duann",
   "license": "MIT",
   "packageManager": "pnpm@10.4.1",
