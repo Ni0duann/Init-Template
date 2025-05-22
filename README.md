@@ -1,6 +1,6 @@
 # Init-Template
 
-一个现代化的 前端开发 项目模板，集成了完整的工程化工具链。
+一个现代化的前端开发项目模板，集成了完整的工程化工具链。
 
 ## ✨ 亮点特性
 
@@ -28,8 +28,9 @@
 
 ```
 .
-├── src/                # 源代码目录
-│   └── index.ts       # 入口文件
+├── packages/
+│   └── package1
+│   └── package2
 ├── tsconfig.json      # TypeScript 配置
 ├── package.json       # 项目依赖配置
 └── README.md         # 项目说明文档
