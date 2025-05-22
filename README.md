@@ -31,9 +31,52 @@
 ├── packages/
 │   └── package1
 │   └── package2
+├── commit.bat         # Windows 提交脚本
+├── commit.sh          # Mac/Linux 提交脚本
 ├── tsconfig.json      # TypeScript 配置
 ├── package.json       # 项目依赖配置
 └── README.md         # 项目说明文档
+```
+
+## 快速提交
+
+项目提供了便捷的提交脚本，支持跨平台使用：
+
+### Windows
+
+1. 双击执行：
+
+   - 双击 `commit.bat` 文件即可启动交互式提交流程
+
+2. 终端执行（以下方式任选其一）：
+
+   ```bash
+   # 方式1：直接执行
+   .\commit.bat
+
+   # 方式2：使用 cmd 执行
+   cmd /c commit.bat
+
+   # 方式3：使用完整路径
+   "C:\完整路径\commit.bat"
+   ```
+
+### Mac/Linux
+
+1. 添加执行权限：
+
+```bash
+chmod +x commit.sh
+```
+
+2. 执行脚本：
+
+```bash
+# 方式1：直接执行
+./commit.sh
+
+# 方式2：使用 bash 执行
+bash commit.sh
 ```
 
 ## 许可证
